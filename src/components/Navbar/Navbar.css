@@ -4,7 +4,9 @@
     background-color: white;
     border-bottom: 1px solid black;
     padding: 10px 0;
+    
 }
+
 .nav-bar .nav-container{
     width: 90%;
     max-width: 1200px;
@@ -26,6 +28,7 @@
     gap: 45px;
     font-size: 1.3rem;
     transition: right 0.5s;
+    z-index: 1;
 }
 .nav-bar .nav-container .links .close{
     display: none;
@@ -67,7 +70,6 @@
     }
     .nav-bar .nav-container .links.open{
         right: 0;
-        z-index: 1;
     }
     .nav-bar .nav-container .links.open .close{
         display: block;

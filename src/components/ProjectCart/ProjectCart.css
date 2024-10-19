@@ -1,0 +1,34 @@
+.project-cart{
+    width: 360px;
+}
+
+.project-cart .textures .title{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.project-cart .textures .title a{
+    color: black;
+    font-size: 1.1rem;
+
+}
+.project-cart .textures .address{
+    color: #6f6f6f;
+    font-size: 14px;
+}
+.swiper{
+    z-index: 0 !important;
+}
+.swiper-button-prev,.swiper-button-next {
+  color: #1e1e1e !important; 
+  font-size: 12px !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important; 
+}
+
+@media screen and (max-width:1200px) and (min-width:1000px){
+    .project-cart{
+        width: 300px;
+    }
+}

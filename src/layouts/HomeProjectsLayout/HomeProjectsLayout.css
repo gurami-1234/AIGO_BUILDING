@@ -1,0 +1,34 @@
+.home-projects-layout{
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.home-projects-layout .header{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.home-projects-layout .header .title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(114, 114, 114);
+}
+.home-projects-layout .header .title .line{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(114, 114, 114);
+}
+.home-projects-layout .header .see-more a{
+    color: black;
+}
+.home-projects-layout .header .title span{
+    text-transform: capitalize; 
+}
+.home-projects-layout .projects-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
