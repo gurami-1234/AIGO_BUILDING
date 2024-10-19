@@ -25,6 +25,7 @@
   position: absolute;
   border-radius: 4px;
   margin-top: 5px;
+  margin-left: -25px;
   max-height: 0; 
   opacity: 0;
   overflow: hidden; 
@@ -58,4 +59,9 @@
 }
 .dropdown .dropdown-menu a:hover {
   background-color: #f1f1f1;
+}
+@media screen and (max-width:600px) {
+  .dropdown .dropdown-toggle .arrow-down{
+    color: white;
+  }
 }
