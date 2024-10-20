@@ -17,20 +17,17 @@ const Footer = () => {
         {/* ---- PAGE LINKS ---- */}
 
         <div className="page-links">
+          <div className="Home">
+            <Link to="/">Home</Link>
+          </div>
           <div className="project">
             <Link to="/">Projects</Link>
-          </div>
-          <div className="investment-appeal">
-            <Link to="/">Investment appeal</Link>
           </div>
           <div className="about">
             <Link to="/">About us</Link>
           </div>
-          <div className="news">
-            <Link to="/">News</Link>
-          </div>
           <div className="contact">
-            <Link to="/">Contacts</Link>
+            <Link to="/">Contact</Link>
           </div>
         </div>
 
