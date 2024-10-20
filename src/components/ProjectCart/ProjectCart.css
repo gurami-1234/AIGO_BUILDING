@@ -1,7 +1,9 @@
 .project-cart{
     width: 360px;
 }
-
+.project-cart img{
+    border-radius: 5px;
+}
 .project-cart .textures .title{
     margin: 5px 0;
     font-weight: bold;
