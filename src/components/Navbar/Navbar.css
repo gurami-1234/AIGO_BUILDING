@@ -14,12 +14,15 @@
     align-items: center;
     gap: 15px;
 }
-.nav-bar .nav-container .logo a{
+/* .nav-bar .nav-container .logo a{
     font-family: "Playwrite GB S", cursive;
     color:#090713;
     font-size: 1.7rem;
     font-weight: bolder;
 
+} */
+.nav-bar .nav-container .logo img{
+    width: 100px;
 }
 .nav-bar .nav-container .links{
     display: flex;

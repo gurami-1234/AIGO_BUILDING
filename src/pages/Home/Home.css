@@ -1,0 +1,39 @@
+/* ---- OUR PROJECTS ---- */
+
+.home .our-projects{
+   display: flex;
+   align-items: center;
+   padding-left: 95px;
+   gap: 10px;
+}
+.home .our-projects .hr{
+   width: 70px;
+   height: 1px;
+   background-color: rgb(194, 194, 194);
+}
+.home .our-projects p{
+   color: rgb(194, 194, 194);
+}
+
+/* ---- PROJECT CARTS ---- */
+
+.home .project-carts{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    padding: 30px;
+    row-gap: 120px;
+}
+
+/* ---- RESPONSIVE ---- */
+
+@media screen and (max-width:1200px){
+    .home .project-carts{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:950px){
+    .home .project-carts{
+        grid-template-columns: repeat(1,auto);
+    }
+  }
