@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid black;
+}
+.footer a {
+  text-decoration: none;
+}
+
+/* ---- FOOTER CONTAINER ---- */
+
+.footer .footer-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.footer .footer-container a {
+  color: black;
+}
+
+/* ---- LOGO ---- */
+
+.footer .footer-container .logo {
+  font-family: "Playwrite GB S", cursive;
+  color: #090713;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+.footer .footer-container .logo a {
+  text-decoration: underline;
+}
+
+/* ---- PAGE LINKS ---- */
+
+.footer .footer-container .page-links {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 0 40px;
+  font-size: 1.2rem;
+}
+
+/* ---- SOCIAL MEDIA LINKS ---- */
+
+.footer .footer-container .social-media-links {
+  display: flex;
+  gap: 0 15px;
+}
+
+/* ---- LINKEDIN ---- */
+
+.footer .footer-container .social-media-links .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 44, 67);
+  font-size: 1.3rem;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-container .social-media-links .linkedin a {
+  color: white;
+}
+
+/* ---- WHATSAPP ---- */
+
+.footer .footer-container .social-media-links .whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 44, 67);
+  font-size: 1.2rem;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-container .social-media-links .whatsapp a {
+  color: white;
+  margin-top: 3px;
+}
+
+/* ---- FACEBOOK ---- */
+
+.footer .footer-container .social-media-links .facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 44, 67);
+  font-size: 1.2rem;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-container .social-media-links .facebook a {
+  color: white;
+  margin-top: 5px;
+}
+
+/* ---- INSTAGRAM ---- */
+
+.footer .footer-container .social-media-links .instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 44, 67);
+  font-size: 1.5rem;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-container .social-media-links .instagram a {
+  color: white;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+
+/* ---- YOUTUBE ---- */
+
+.footer .footer-container .social-media-links .youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 44, 67);
+  font-size: 1.4rem;
+  width: 5px;
+  height: 5px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer .footer-container .social-media-links .youtube a {
+  color: white;
+  margin-top: 5px;
+}
+
+/* ---- COPYRIGHT CONTAINER ---- */
+
+.footer .copyright-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 100px 0px 100px;
+  color: rgb(128, 128, 128);
+}
+.footer .copyright-container a {
+  color: rgb(128, 128, 128);
+}
+.footer .copyright-container .copyright {
+  display: flex;
+  align-items: center;
+}
+
+/* ---- RESPONSIVE ---- */
+
+@media screen and (max-width: 1250px) {
+  .footer .copyright-container {
+    padding: 0px 80px 0px 75px;
+  }
+}
+
+/* ---- RESPONSIVE ---- */
+
+@media screen and (max-width: 1200px) {
+  .footer .copyright-container {
+    padding: 0px 75px 0px 65px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .footer .copyright-container {
+    padding: 0px 65px 0px 60px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer .copyright-container {
+    padding: 0px 45px 0px 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* ---- PAGE LINKS ---- */
+
+  .footer .footer-container .page-links {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 0 20px;
+    font-size: 1.2rem;
+  }
+
+  /* ---- SOCIAL MEDIA LINKS ---- */
+
+  .footer .footer-container .social-media-links {
+    gap: 0 10px;
+  }
+
+  /* ---- COPYRIGHT CONTAINER ---- */
+
+  .footer .copyright-container {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* ---- PAGE LINKS ---- */
+
+  .footer .footer-container .page-links {
+    position: absolute;
+    top: 90px;
+    left: 14%;
+  }
+
+  /* ---- SOCIAL MEDIA LINKS ---- */
+
+  .footer .footer-container .social-media-links {
+    gap: 0 10px;
+  }
+
+  /* ---- COPYRIGHT CONTAINER ---- */
+
+  .footer .copyright-container {
+    justify-content: space-around;
+    margin-top: 90px;
+    gap: 120px;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer .footer-container .page-links {
+    left: 13%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer .footer-container .page-links {
+    left: 11%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer .footer-container {
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+  }
+
+  /* ---- PAGE LINKS ---- */
+
+  .footer .footer-container .page-links {
+    left: 3%;
+  }
+
+  /* ---- COPYRIGHT CONTAINER ---- */
+
+  .footer .copyright-container {
+    justify-content: space-between;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  /* ---- FOOTER CONTAINER ---- */
+
+  .footer .footer-container {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px 0;
+    margin-left: 55px;
+  }
+
+  /* ---- PAGE LINKS ---- */
+
+  .footer .footer-container .page-links {
+    position: relative;
+    margin-top: -170px;
+    margin-left: -15px;
+  }
+
+  /* ---- SOCIAL MEDIA LINKS ---- */
+
+  .footer .footer-container .social-media-links {
+    margin-bottom: -80px;
+  }
+
+  /* ---- COPYRIGHT CONTAINER ---- */
+
+  .footer .copyright-container {
+    justify-content: center;
+    margin-left: -110px;
+    gap: 0 15px;
+    margin-bottom: -500px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* ---- COPYRIGHT CONTAINER ---- */
+
+  .footer .copyright-container {
+    justify-content: center;
+    margin-left: -50px;
+    gap: 0 15px;
+    margin-bottom: -500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer .footer-container {
+    text-align: center;
+  }
+  .footer .footer-container .logo {
+    margin-bottom: 50px;
+  }
+
+  /* ---- PAGE LINKS ---- */
+  .footer .footer-container .page-links {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  /* ---- SOCIAL MEDIA LINKS ---- */
+  .footer .footer-container .social-media-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+
+  /* ---- COPYRIGHT CONTAINER ---- */
+  .footer .copyright-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -75px;
+    margin-bottom: -500px;
+  }
+}
