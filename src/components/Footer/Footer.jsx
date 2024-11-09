@@ -4,14 +4,14 @@ import { ImLinkedin2 } from "react-icons/im";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { AiFillYoutube, AiOutlineCopyright } from "react-icons/ai";
-import FooterCSS from "./Footer.css";
-
+import logo from  "assets/Logo-09.png"
+import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
         <div className="logo">
-          <Link to="/">Aigo Building</Link>
+          <img src={logo} alt="" />
         </div>
 
         {/* ---- PAGE LINKS ---- */}

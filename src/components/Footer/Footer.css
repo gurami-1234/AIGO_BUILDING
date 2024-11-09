@@ -25,14 +25,8 @@
 
 /* ---- LOGO ---- */
 
-.footer .footer-container .logo {
-  font-family: "Playwrite GB S", cursive;
-  color: #090713;
-  font-size: 1.7rem;
-  font-weight: bolder;
-}
-.footer .footer-container .logo a {
-  text-decoration: underline;
+.footer .footer-container .logo img {
+  width: 100px;
 }
 
 /* ---- PAGE LINKS ---- */

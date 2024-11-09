@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { LangDropDown } from './LangDropDown/LangDropDown'
 import { MdOutlineMenu } from "react-icons/md";
+import logo from 'assets/Logo-09.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
         <div className='nav-container'>
             <div className='logo'>
                 <Link to="/">
-                    Aigo Building
+                    <img src={logo} alt="" />
                 </Link>
             </div>
             <div className={respNavIsOpen?'links open':'links'}>
